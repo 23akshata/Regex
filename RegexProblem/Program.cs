@@ -12,7 +12,8 @@ namespace RegexProblem
         {
             Console.WriteLine("*-----REGEX-----*");
             User user = new User();
-            user.ValidateFirstName("Rohan");
+            user.ValidateFirstName("Akshata");
+            user.ValidateLastName("Patil");
 
             Console.ReadKey();
         }

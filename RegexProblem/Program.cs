@@ -16,6 +16,7 @@ namespace RegexProblem
             user.ValidateLastName("Patil");
             user.ValidateEmail("akshatapatil@gmail.com");
             user.ValidatePhoneNumber("1234567452");
+            user.ValidatePasswordRule1("123455611");
             Console.ReadKey();
         }
     }

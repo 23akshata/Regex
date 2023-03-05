@@ -14,6 +14,7 @@ namespace RegexProblem
             User user = new User();
             user.ValidateFirstName("Akshata");
             user.ValidateLastName("Patil");
+            user.ValidateEmail("akshatapatil@gmail.com");
 
             Console.ReadKey();
         }
